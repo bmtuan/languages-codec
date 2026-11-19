@@ -1,0 +1,12 @@
+{
+  "name": "language-codes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Searchable ISO 639 / BCP 47 language code reference with names in 8 languages",
+  "scripts": {
+    "build": "node scripts/build-data.mjs",
+    "dev": "node scripts/build-data.mjs && npx --yes serve public"
+  },
+  "engines": { "node": ">=18" }
+}
