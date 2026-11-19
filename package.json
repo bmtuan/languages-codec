@@ -8,5 +8,10 @@
     "build": "node scripts/build-data.mjs",
     "dev": "node scripts/build-data.mjs && npx --yes serve public"
   },
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
 }
